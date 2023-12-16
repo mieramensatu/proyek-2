@@ -1,6 +1,6 @@
 //import js whatsauth yang terbaru
 import {qrController,deleteCookie} from "https://cdn.jsdelivr.net/gh/whatsauth/js@0.2.1/whatsauth.js";
-import { wauthparam } from "https://cdn.jsdelivr.net/gh/whatsauth/js@0.2.1/config.js";
+import { wauthparam } from "./js/config.js";
 
 
 //definisikan url wss dan keyword menggunakan base64

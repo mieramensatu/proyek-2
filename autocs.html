@@ -134,8 +134,9 @@
            <a class="text-white border p-3 bg-blue-500 rounded-full transition duration-300 ease-in-out hover:opacity-90" href="">Tambah AutoCS Reply</a> 
          </div>
         <div class="border-t border-gray-300 mt-4">
-            <div class="p-4">
-                <div class="flex items-center">
+            <div class="p-4 overflow-x-auto">
+                <div class="lg:flex items-center">
+                  <div class="flex">
                     <p class="mr-2">Show</p>
                     <select class="border border-gray-300 px-2" id="angka">
                         <option value="10">10</option>
@@ -144,6 +145,7 @@
                         <option value="100">100</option>
                     </select>
                     <p class="ml-2">entries</p>
+                  </div>
                     <p class="ml-auto">Search: <input type="text" class="border border-gray-300 px-2"></p>
                 </div>
                 <div class="mt-5">
@@ -151,28 +153,28 @@
                         <thead>
                             <tr>
                                 <th class="font-normal text-left pb-2">
-                                    <a href="#">#<i class="text-xs ml-3 bi bi-arrow-up"></i><i class="text-xs mr-5 bi bi-arrow-down"></i></a>
+                                    <a class="mr-10 flex" href="#">#<i class="text-xs lg:ml-3 bi bi-arrow-up"></i><i class="text-xs lg:mr-5 bi bi-arrow-down"></i></a>
                                 </th>
                                 <th class="font-normal text-left pb-2">
-                                    <a href="#">Keyword<i class="text-xs ml-3 bi bi-arrow-up"></i><i class="text-xs mr-5 bi bi-arrow-down"></i></a>
+                                    <a class="mr-10 flex" href="#">Keyword<i class="text-xs lg:ml-3 bi bi-arrow-up"></i><i class="text-xs lg:mr-5 bi bi-arrow-down"></i></a>
                                 </th>
                                 <th class="font-normal text-left pb-2">
-                                    <a href="#">Reply/Content text<i class="text-xs ml-3 bi bi-arrow-up"></i><i class="text-xs mr-5 bi bi-arrow-down"></i></a>
+                                    <a class="mr-10 flex" href="#">Reply/Content text<i class="text-xs lg:ml-3 bi bi-arrow-up"></i><i class="text-xs lg:mr-5 bi bi-arrow-down"></i></a>
                                 </th>
                                 <th class="font-normal text-left pb-2">
-                                    <a href="#">Footer Text<i class="text-xs ml-3 bi bi-arrow-up"></i><i class="text-xs mr-5 bi bi-arrow-down"></i></a>
+                                    <a class="mr-10 flex" href="#">Footer Text<i class="text-xs lg:ml-3 bi bi-arrow-up"></i><i class="text-xs lg:mr-5 bi bi-arrow-down"></i></a>
                                 </th>
                                 <th class="font-normal text-left pb-2">
-                                    <a href="#">Buttons<i class="text-xs ml-3 bi bi-arrow-up"></i><i class="text-xs mr-5 bi bi-arrow-down"></i></a>
+                                    <a class="mr-10 flex" href="#">Buttons<i class="text-xs lg:ml-3 bi bi-arrow-up"></i><i class="text-xs lg:mr-5 bi bi-arrow-down"></i></a>
                                 </th>
                                 <th class="font-normal text-left pb-2">
-                                    <a href="#">Device<i class="text-xs ml-3 bi bi-arrow-up"></i><i class="text-xs mr-5 bi bi-arrow-down"></i></a>
+                                    <a class="mr-10 flex" href="#">Device<i class="text-xs lg:ml-3 bi bi-arrow-up"></i><i class="text-xs lg:mr-5 bi bi-arrow-down"></i></a>
                                 </th>
                                 <th class="font-normal text-left pb-2">
-                                    <a href="#">User<i class="text-xs ml-3 bi bi-arrow-up"></i><i class="text-xs mr-5 bi bi-arrow-down"></i></a>
+                                    <a class="mr-10 flex" href="#">User<i class="text-xs lg:ml-3 bi bi-arrow-up"></i><i class="text-xs lg:mr-5 bi bi-arrow-down"></i></a>
                                 </th>
                                 <th class="font-normal text-left pb-2">
-                                    <a href="#">Action<i class="text-xs ml-3 bi bi-arrow-up"></i><i class="text-xs mr-5 bi bi-arrow-down"></i></a>
+                                    <a class="mr-10 flex" href="#">Action<i class="text-xs lg:ml-3 bi bi-arrow-up"></i><i class="text-xs lg:mr-5 bi bi-arrow-down"></i></a>
                                 </th>
                             </tr>
                         </thead>
@@ -213,7 +215,7 @@
                 </div>
                 <div class="flex justify-between mt-8">
                     <p>Showing 0 to 0 entries</p>
-                    <div>
+                    <div class="flex">
                         <a href="" class="p-3 border rounded-full">Previous</a>
                         <a href="" class="p-3 border rounded-full">Next</a>
                     </div>
@@ -223,7 +225,7 @@
         </div>
     </div>
     </section>
-    <footer class="lg:ml-[300px] mt-32">
+    <footer class="lg:ml-[300px] lg:mt-32 mt-60">
       <div class="bg-gray-950 p-5 text-white flex justify-between">
         <div>
           <a href="" class="mx-6 hover:text-blue-500">Home</a>

@@ -3,7 +3,7 @@ import { IsMobile,getParamsfromURL } from "https://cdn.jsdelivr.net/gh/whatsauth
 export let wauthparam={
     redirect : "../",
     auth_ws : "d3NzOi8vYXV0aC51bGJpLmFjLmlkL3dzL3doYXRzYXV0aC9xcg==",
-    keyword : "aHR0cHM6Ly93YS5tZS82Mjg1NjAzNzg1NTkxP3RleHQ9d2g0dDVhdXRoMA==",
+    keyword : "aHR0cHM6Ly93YS5tZS82MjgzMTMxODk1MDAwP3RleHQ9d2g0dDVhdXRoMA==",
     domaincookie : window.location.host,
     interval : 30,
     maxqrwait : 90,

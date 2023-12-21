@@ -5,7 +5,7 @@ import { wauthparam } from "./js/config.js";
 
 //definisikan url wss dan keyword menggunakan base64
 wauthparam.auth_ws="d3NzOi8vYXBpLndhLm15LmlkL3dzL3doYXRzYXV0aC9wdWJsaWM=";
-wauthparam.keyword="aHR0cHM6Ly93YS5tZS82Mjg1NjAzNzg1NTkxP3RleHQ9d2g0dDVhdXRoMA==";
+wauthparam.keyword="aHR0cHM6Ly93YS5tZS82MjgzMTMxODk1MDAwP3RleHQ9d2g0dDVhdXRoMA==";
 
 //delete cookies session and call whatsauth qrController
 deleteCookie(wauthparam.tokencookiename);

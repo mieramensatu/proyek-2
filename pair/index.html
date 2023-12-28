@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/signup.js"></script>
+  </head>
+  <body>
+    <div class="login-box">
+        <div class="user-box">
+           <input id="urlGcf" type="text" name="" required="" />
+           <label>URL</label>
+        </div>
+        <div class="user-box">
+            <input id="secretBox" type="text" name="" required="" />
+            <label>SECRET</label>
+          </div>
+        <center>
+          <button onclick="return window.location.href='#'">
+            <span>Back</span>
+          </button>
+          <button onclick="loginUser()">
+            <span>Next</span>
+          </button>
+        </center>
+    </div>
+  </body>
+</html>

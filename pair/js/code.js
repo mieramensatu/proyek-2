@@ -34,7 +34,6 @@ function displayCode(data) {
     card.innerHTML = `
     <h1>${data.code}</h1>
     <h3 style="color: white;">Input this token into your Google Cloud Function</h3>
-    <div class="textToken" style="color: white; text-align: center;"> ${token} </div>
     <input value="${token}">
     <h3></h3>
     `;

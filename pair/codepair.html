@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Input form</title>
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pair to WhatsApp • Kamagasaki</title>
+    <link rel="stylesheet" href="src/css/main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.config.js"></script>
+    <script src="src/js/signup.js"></script>
+    <script src="src/js/auth.js" type="module"></script>
   </head>
   <body>
-    <div class="login-box">
-      <center>
-        <div id="productTableBody" class="user-box" style="color: white; text-align: center;">
-          <div>
-          </div>  
+      <div id="hasphonenumber" class="w-full h-screen flex items-center justify-center">
+        <div class="w-96 bg-stone-950 rounded-3xl">
+          <div class="">
+            <div id="productTableBody">
+
+            </div>
+            <div class="px-8 py-10 text-center">
+              <p class="text-sm">Add a new device to your WhatsApp using the code provided above. Afterward, use the token provided in your WebHook.</p>
+            </div>
+            <form class="shadow-md rounded px-8 pt-6 pb-8 mb-4">
+              <div class="flex items-center justify-between">
+                <a class="w-full" href="done.html">
+                  <button class="bg-white hover:bg-stone-100 text-stone-950 font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline w-full" type="button">
+                    Finish
+                  </button>
+                </a>
+              </div>
+            </form>
+            <div class="pb-12">
+              <p class="text-center text-white text-xs">
+                2024 &copy; Lilium Project. All rights reserved.
+              </p>
+            </div>
+          </div>
         </div>
-          <button onclick="return window.location.href='/'">
-            <span>Back</span>
-          </button>
-          <button onclick="return window.location.href='peringatan.html'">
-            <span>Next</span>
-          </button>
-        </center>
-    </div>
-    <script src="js/code.js" type="module"></script>
-  </body>
+      </div>
+      <script src="src/js/code.js" type="module"></script>
+    </body>
 </html>
